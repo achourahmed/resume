@@ -1,0 +1,110 @@
+Ahmed Achour
+
+Sousse, Tunisia | achourahmed21@gmail.com | 29 106 529 | linkedin.com/in/ahmed-achour
+
+Summary
+
+Machine Learning Engineer with expertise in NLP, LLM integration, and cloud-based AI solutions. Skilled
+optimizing ML workflows, and deploying scalable systems.
+
+Education
+
+Université de Technologie de Sousse, MS in Big Data
+• Coursework: Machine Learning, Cloud Computing, Deep Learning, Big Data Analytics, Statistical Analysis,
+
+2020 to 2022
+
+Artificial Intelligence, Database Systems, NLP, Computer Vision.
+
+École Polytechnique de Sousse, National Diploma in Civil engineering
+• Coursework: Structural Analysis, Transportation Engineering, Roads Engineering.
+
+2014 to 2019
+
+Experience
+
+Machine Learning Engineer, Linguamind – Tunis, Tunisia
+• Developed and deployed an LLM-powered personalized newsletter system, where each "watcher" focuses on a
+
+Nov 2024 to present
+
+specific type of foresight (strategic, regulatory, etc.), delivering regular updates to clients. This solution helps top
+North African banks and governmental institutions save time, stay informed, anticipate risks, and make better
+decisions.
+
+• Automated data pipelines for scraping and extracting relevant information from news websites and social media
+
+platforms, streamlining the process of gathering insights.
+
+• Orchestrated workflows using AWS Fargate and Cron jobs to ensure timely execution of newsletter generation
+
+and updates, optimizing for cost efficiency and scalability through serverless architecture.
+
+• Provisioned and managed infrastructure with Terraform, and designed a PostgreSQL database for storing and
+
+managing newsletter data, implementing Flyway for schema migrations.
+
+Machine Learning Engineer, Quicktext – Sousse, Tunisia
+• Participated in improving a multi-class classification model performance by using SHAP and Ferret benchmark
+
+2023 to 2024
+
+for detailed evaluation, boosting accuracy by 7%.
+
+• Played an active role in managing the end-to-end machine learning lifecycle, contributing to continuous model
+
+refinement and enhancement for intent classification.
+
+• Assisted in guiding LLM output by designing effective prompts and utilizing prompt chaining. Contributed to
+fine-tuning the LLM to optimize performance for specific use cases and helped implement a RAG system to
+enhance access to domain-specific data.
+
+Freelance Developer, Self-Employed – Sousse, Tunisia
+Sep 2023 to Oct 2024
+• Developed a document processing pipeline for accurate text extraction from historical documents (19th century)
+
+using data pre-processing techniques and OCR.
+
+• Built a question-answering API powered by GPT 3.5 API for a specific book corpus.
+• Performed Text transliteration from English to Arabic with GPT 3.5, followed by Text clustering of hotel names
+
+using Agglomerative Hierarchical Clustering.
+
+Sep 2023 to Oct 2024
+Software Tester, Dräxlmaier – Sousse, Tunisia
+• Performed functional testing of cable harness software, including test case design, execution, and bug reporting.
+
+Computer Vision Intern, ENOVA robotics – Sousse, Tunisia
+• Fine-tuned a CGAN model (pix2pixHD) for robotic anomaly detection in wire fences, using synthetic generated
+
+Oct 2021 to Aug 2022
+
+images.
+
+Courses & Trainings
+
+CS231n by Andrej Karpathy
+
+NYU Deep Learning by Alfredo Canziani
+
+Complete Data Science Bootcamp by Udemy
+
+Datacamp: Developing AI Applications Track
+
+Technical Skills
+
+Machine Learning: Data analysis, Model Evaluation,
+
+Cloud & DevOps: Pytorch, FastAPI, Flask, Objective-C, C#, SQL, JavaScript
+
+Data & API development: .NET, Microsoft SQL Server, XCode, Interface Builder
+
+Languages
+
+Arabic : native , French : native , English : professional
+
+Winter 2016
+
+Spring 2021
+
+

@@ -1,0 +1,98 @@
+\documentclass[a4paper,10pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{tabularx}
+\usepackage{setspace}
+
+\setstretch{1.05}
+\pagestyle{empty}
+
+% ----- Section formatting -----
+\titleformat{\section}
+  {\bfseries\large}
+  {}
+  {0em}
+  {}
+  [\titlerule]
+  
+\titleformat{\subsection}[runin]
+  {\bfseries}
+  {}
+  {0em}
+  {}
+  [---]
+
+% ----- Spacing -----
+\titlespacing*{\section}{0pt}{0.6ex}{0.4ex}
+\titlespacing*{\subsection}{0pt}{0.4ex}{0.2ex}
+\setlist[itemize]{leftmargin=1.5em, topsep=0pt, itemsep=0pt, parsep=0pt}
+
+% ----- Document -----
+\begin{document}
+
+\begin{center}
+    {\LARGE \textbf{Ahmed Achour}}\\
+    Sousse, Tunisia \,|\, \href{mailto:achourahmed21@gmail.com}{achourahmed21@gmail.com} \,|\, +216 29 106 529 \,|\, \href{https://linkedin.com/in/ahmed-achour}{linkedin.com/in/ahmed-achour}
+\end{center}
+
+\vspace{0.3em}
+
+\section*{Summary}
+Machine Learning Engineer with expertise in NLP, LLM integration, and cloud-based AI solutions. Skilled in optimizing ML workflows and deploying scalable systems.
+
+\section*{Experience}
+\textbf{Machine Learning Engineer}, Linguamind – Tunis, Tunisia \hfill Nov 2024 -- Present
+\begin{itemize}
+    \item Developed and deployed an LLM-powered personalized newsletter system, where each “watcher” focuses on a specific type of foresight (strategic, regulatory, etc.), delivering regular updates to clients. This solution helps top North African banks and governmental institutions save time, stay informed, anticipate risks, and make better decisions.
+    \item Automated data pipelines for scraping and extracting relevant information from news websites and social media platforms, streamlining the process of gathering insights.
+    \item Created a reusable scraper boilerplate as an internal project, to streamline development of future web scraping projects.
+    \item Orchestrated workflows using AWS Fargate and Cron jobs to ensure timely execution of newsletter generation and updates, optimizing for cost efficiency and scalability through serverless architecture.
+    \item Provisioned and managed infrastructure with Terraform, and designed a PostgreSQL database for storing and managing newsletter data, implementing Flyway for schema migrations.
+\end{itemize}
+\textbf{Machine Learning Engineer}, Quicktext – Sousse, Tunisia \hfill 2023 -- 2024
+\begin{itemize}
+    \item Participated in improving a multi-class classification model performance by using SHAP and Ferret benchmark for detailed evaluation, boosting accuracy by 7\%.
+    \item Played an active role in managing the end-to-end machine learning lifecycle, contributing to continuous model refinement and enhancement for intent classification.
+    \item Assisted in guiding LLM output by designing effective prompts and utilizing prompt chaining. Contributed to fine-tuning the LLM to optimize performance for specific use cases and helped implement a RAG system to enhance access to domain-specific data.
+\end{itemize}
+\textbf{Freelance Developer}, Self-Employed – Sousse, Tunisia \hfill Sep 2023 -- Oct 2024
+\begin{itemize}
+    \item Developed a document processing pipeline for accurate text extraction from historical documents (19th century) using data pre-processing techniques and OCR.
+    \item Built a question-answering API powered by GPT-3.5 for a specific book corpus.
+    \item Performed text transliteration from English to Arabic with GPT-3.5, followed by text clustering of hotel names using Agglomerative Hierarchical Clustering.
+\end{itemize}
+\textbf{Software Tester}, Dräxlmaier – Sousse, Tunisia \hfill Sep 2023 -- Oct 2024\\
+\noindent\textbf{Computer Vision Intern}, ENOVA Robotics – Sousse, Tunisia \hfill Oct 2021 -- Aug 2022
+\begin{itemize}
+    \item Fine-tuned a CGAN model (pix2pixHD) for robotic anomaly detection in wire fences, using synthetically generated images.
+\end{itemize}
+
+\section*{Education}
+\textbf{Université de Technologie de Sousse}, Professional Master degree in Big Data \hfill 2020 -- 2022\\
+\textit{Coursework:} Machine Learning, Cloud Computing, Deep Learning, Big Data Analytics, Statistical Analysis, Artificial Intelligence, Database Systems, NLP, Computer Vision.
+\\
+\textbf{École Polytechnique de Sousse}, National Diploma in Civil Engineering \hfill 2014 -- 2019
+
+\section*{Courses \& Trainings}
+\href{https://www.youtube.com/watch?v=NfnWJUyUJYU&list=PLkt2uSq6rBVctENoVBg1TpCC7OQi31AlC}{CS231n by Andrej Karpathy} \hfill Winter 2016\\
+\href{https://www.youtube.com/watch?v=mTtDfKgLm54&list=PLLHTzKZzVU9e6xUfG10TkTWApKSZCzuBI}{NYU Deep Learning by Alfredo Canziani} \hfill Spring 2021\\
+Complete Data Science Bootcamp by Udemy\\
+Datacamp: Developing AI Applications Track
+
+\section*{Technical Skills}
+\textbf{Programming:} Python, SQL, Bash\\
+\textbf{ML \& NLP:} PyTorch, scikit-learn, spaCy, SHAP, RAG, prompt engineering, fine-tuning\\
+\textbf{MLOps \& Data:} Docker, Terraform, Flyway, PostgreSQL\\
+\textbf{Cloud:} AWS (Fargate, ECS, S3, IAM), Serverless orchestration\\
+\textbf{APIs \& Frameworks:} FastAPI, Flask\\
+\textbf{Tools:} Git, Linux, Pandas, NumPy
+
+\section*{Languages}
+Arabic: Native \quad French: Native \quad English: Professional
+
+\end{document}
